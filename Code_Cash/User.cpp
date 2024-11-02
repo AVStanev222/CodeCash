@@ -3,14 +3,14 @@
 #include <fstream>
 #include <sstream>
 #include <iomanip>
-#include <openssl/sha.h> // За хеширане на пароли
+#include <sha.h> // For password hashing
 
 using namespace std;
 
-// Конструктор по подразбиране
+// Default constructor
 User::User() {}
 
-// Проверка дали потребителското име съществува
+// Check if username exists
 bool User::userExists(const string& username) {
     ifstream infile("data/users.txt");
     string line;
@@ -22,7 +22,7 @@ bool User::userExists(const string& username) {
     return false;
 }
 
-// Хеширане на паролата с SHA256
+// Hash password with SHA256
 string User::hashPassword(const string& password) {
     unsigned char hash[SHA256_DIGEST_LENGTH];
     SHA256(reinterpret_cast<const unsigned char*>(password.c_str()), password.length(), hash);
@@ -33,10 +33,10 @@ string User::hashPassword(const string& password) {
     return ss.str();
 }
 
-// Регистрация на потребител
+// Register user
 bool User::registerUser(const string& username, const string& password) {
     if (userExists(username)) {
-        cout << "Потребителското име вече съществува.\n";
+        cout << "Username already exists.\n";
         return false;
     }
 
@@ -49,11 +49,11 @@ bool User::registerUser(const string& username, const string& password) {
     this->username = username;
     this->passwordHash = hashedPassword;
 
-    cout << "Успешна регистрация!\n";
+    cout << "Successful registration!\n";
     return true;
 }
 
-// Вход на потребител
+// User login
 bool User::loginUser(const string& username, const string& password) {
     ifstream infile("data/users.txt");
     string storedUsername, storedPasswordHash;
@@ -63,16 +63,16 @@ bool User::loginUser(const string& username, const string& password) {
         if (storedUsername == username && storedPasswordHash == hashedPassword) {
             this->username = username;
             this->passwordHash = storedPasswordHash;
-            cout << "Успешен вход!\n";
+            cout << "Login successful!\n";
             return true;
         }
     }
 
-    cout << "Невалидно потребителско име или парола.\n";
+    cout << "Invalid username or password.\n";
     return false;
 }
 
-// Вземане на потребителското име
+// Get username
 string User::getUsername() const {
     return username;
 }

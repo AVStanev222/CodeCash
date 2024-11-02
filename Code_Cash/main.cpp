@@ -16,26 +16,26 @@ int main() {
 
     int choice;
 
-    cout << "Добре дошли в приложението за управление на лични финанси!\n";
+    cout << "Welcome to the personal finance management application!\n";
 
     while (true) {
-        cout << "\n1. Регистрация\n2. Вход\n3. Изход\nИзберете опция: ";
+        cout << "\n1. Register\n2. Login\n3. Exit\nChoose an option: ";
         cin >> choice;
 
         if (choice == 1) {
             string username, password;
-            cout << "Въведете потребителско име: ";
+            cout << "Enter username: ";
             cin >> username;
-            cout << "Въведете парола: ";
+            cout << "Enter password: ";
             cin >> password;
 
             user.registerUser(username, password);
         }
         else if (choice == 2) {
             string username, password;
-            cout << "Въведете потребителско име: ";
+            cout << "Enter username: ";
             cin >> username;
-            cout << "Въведете парола: ";
+            cout << "Enter password: ";
             cin >> password;
 
             if (user.loginUser(username, password)) {
@@ -45,84 +45,84 @@ int main() {
 
                 int userChoice;
                 while (true) {
-                    cout << "\n--- Меню на потребителя ---\n";
-                    cout << "1. Управление на приходи\n";
-                    cout << "2. Управление на разходи\n";
-                    cout << "3. Планиране на бюджет\n";
-                    cout << "4. Генериране на отчет\n";
-                    cout << "5. Анализ на разходите\n";
-                    cout << "6. Изход\n";
-                    cout << "Изберете опция: ";
+                    cout << "\n--- User Menu ---\n";
+                    cout << "1. Manage Income\n";
+                    cout << "2. Manage Expenses\n";
+                    cout << "3. Budget Planning\n";
+                    cout << "4. Generate Report\n";
+                    cout << "5. Expense Analysis\n";
+                    cout << "6. Logout\n";
+                    cout << "Choose an option: ";
                     cin >> userChoice;
 
                     if (userChoice == 1) {
-                        // Управление на приходи
+                        // Manage Income
                         int incomeChoice;
-                        cout << "\n1. Добавяне на приход\n2. Редактиране на приход\n3. Изтриване на приход\n4. Показване на приходи\nИзберете опция: ";
+                        cout << "\n1. Add Income\n2. Edit Income\n3. Delete Income\n4. View Income\nChoose an option: ";
                         cin >> incomeChoice;
 
                         if (incomeChoice == 1) {
-                            // Добавяне на приход
+                            // Add Income
                             IncomeRecord record;
-                            cout << "Въведете дата (ГГГГ-ММ-ДД): ";
+                            cout << "Enter date (YYYY-MM-DD): ";
                             cin >> record.date;
-                            cout << "Въведете категория: ";
+                            cout << "Enter category: ";
                             cin >> record.category;
-                            cout << "Въведете сума: ";
+                            cout << "Enter amount: ";
                             cin >> record.amount;
 
                             incomeManager.addIncome(record);
                         }
                         else if (incomeChoice == 2) {
-                            // Редактиране на приход
+                            // Edit Income
                             int id;
-                            cout << "Въведете ID на прихода за редактиране: ";
+                            cout << "Enter income ID to edit: ";
                             cin >> id;
 
                             IncomeRecord record;
-                            cout << "Въведете нова дата (ГГГГ-ММ-ДД): ";
+                            cout << "Enter new date (YYYY-MM-DD): ";
                             cin >> record.date;
-                            cout << "Въведете нова категория: ";
+                            cout << "Enter new category: ";
                             cin >> record.category;
-                            cout << "Въведете нова сума: ";
+                            cout << "Enter new amount: ";
                             cin >> record.amount;
 
                             incomeManager.editIncome(id, record);
                         }
                         else if (incomeChoice == 3) {
-                            // Изтриване на приход
+                            // Delete Income
                             int id;
-                            cout << "Въведете ID на прихода за изтриване: ";
+                            cout << "Enter income ID to delete: ";
                             cin >> id;
 
                             incomeManager.deleteIncome(id);
                         }
                         else if (incomeChoice == 4) {
-                            // Показване на приходи
+                            // View Income
                             incomeManager.displayIncomes();
                         }
                         else {
-                            cout << "Невалидна опция.\n";
+                            cout << "Invalid option.\n";
                         }
                     }
                     else if (userChoice == 2) {
-                        // Управление на разходи
+                        // Manage Expenses
                         int expenseChoice;
-                        cout << "\n1. Добавяне на разход\n2. Редактиране на разход\n3. Изтриване на разход\n4. Показване на разходи\nИзберете опция: ";
+                        cout << "\n1. Add Expense\n2. Edit Expense\n3. Delete Expense\n4. View Expenses\nChoose an option: ";
                         cin >> expenseChoice;
 
                         if (expenseChoice == 1) {
-                            // Добавяне на разход
+                            // Add Expense
                             ExpenseRecord record;
-                            cout << "Въведете дата (ГГГГ-ММ-ДД): ";
+                            cout << "Enter date (YYYY-MM-DD): ";
                             cin >> record.date;
-                            cout << "Въведете категория: ";
+                            cout << "Enter category: ";
                             cin >> record.category;
-                            cout << "Въведете сума: ";
+                            cout << "Enter amount: ";
                             cin >> record.amount;
 
                             expenseManager.addExpense(record);
-                            // Проверка на бюджета
+                            // Check budget
                             double total = 0.0;
                             for (const auto& expense : expenseManager.getExpenses()) {
                                 if (expense.category == record.category) {
@@ -132,81 +132,81 @@ int main() {
                             budgetManager.checkBudget(record.category, total);
                         }
                         else if (expenseChoice == 2) {
-                            // Редактиране на разход
+                            // Edit Expense
                             int id;
-                            cout << "Въведете ID на разхода за редактиране: ";
+                            cout << "Enter expense ID to edit: ";
                             cin >> id;
 
                             ExpenseRecord record;
-                            cout << "Въведете нова дата (ГГГГ-ММ-ДД): ";
+                            cout << "Enter new date (YYYY-MM-DD): ";
                             cin >> record.date;
-                            cout << "Въведете нова категория: ";
+                            cout << "Enter new category: ";
                             cin >> record.category;
-                            cout << "Въведете нова сума: ";
+                            cout << "Enter new amount: ";
                             cin >> record.amount;
 
                             expenseManager.editExpense(id, record);
                         }
                         else if (expenseChoice == 3) {
-                            // Изтриване на разход
+                            // Delete Expense
                             int id;
-                            cout << "Въведете ID на разхода за изтриване: ";
+                            cout << "Enter expense ID to delete: ";
                             cin >> id;
 
                             expenseManager.deleteExpense(id);
                         }
                         else if (expenseChoice == 4) {
-                            // Показване на разходи
+                            // View Expenses
                             expenseManager.displayExpenses();
                         }
                         else {
-                            cout << "Невалидна опция.\n";
+                            cout << "Invalid option.\n";
                         }
                     }
                     else if (userChoice == 3) {
-                        // Планиране на бюджет
+                        // Budget Planning
                         string category;
                         double amount;
-                        cout << "Въведете категория: ";
+                        cout << "Enter category: ";
                         cin >> category;
-                        cout << "Въведете бюджетна сума: ";
+                        cout << "Enter budget amount: ";
                         cin >> amount;
 
                         budgetManager.setBudget(category, amount);
                     }
                     else if (userChoice == 4) {
-                        // Генериране на отчет
+                        // Generate Report
                         string startDate, endDate;
-                        cout << "Въведете начална дата (ГГГГ-ММ-ДД): ";
+                        cout << "Enter start date (YYYY-MM-DD): ";
                         cin >> startDate;
-                        cout << "Въведете крайна дата (ГГГГ-ММ-ДД): ";
+                        cout << "Enter end date (YYYY-MM-DD): ";
                         cin >> endDate;
 
                         reportGenerator.generateReport(incomeManager, expenseManager, startDate, endDate, username);
                     }
                     else if (userChoice == 5) {
-                        // Анализ на разходите
+                        // Expense Analysis
                         reportGenerator.generateExpenseChart(expenseManager, username);
                     }
                     else if (userChoice == 6) {
-                        // Запис на данните и изход
+                        // Save data and logout
                         incomeManager.saveToFile(username);
                         expenseManager.saveToFile(username);
                         budgetManager.saveToFile(username);
                         break;
                     }
                     else {
-                        cout << "Невалидна опция.\n";
+                        cout << "Invalid option.\n";
                     }
                 }
             }
         }
         else if (choice == 3) {
-            cout << "Довиждане!\n";
+            cout << "Goodbye!\n";
             break;
         }
         else {
-            cout << "Невалидна опция.\n";
+            cout << "Invalid option.\n";
         }
     }
 

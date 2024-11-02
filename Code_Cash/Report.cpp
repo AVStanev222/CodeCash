@@ -2,79 +2,79 @@
 #include <fstream>
 #include <iostream>
 #include <map>
-#include <cstdlib> // за system()
+#include <cstdlib> // for system()
 
 using namespace std;
 
-// Конструктор по подразбиране
+// Default constructor
 ReportGenerator::ReportGenerator() {}
 
-// Генериране на финансов отчет
+// Generate financial report
 void ReportGenerator::generateReport(const IncomeManager& incomeManager, const ExpenseManager& expenseManager, const string& startDate, const string& endDate, const string& username) {
     double totalIncome = 0.0;
     double totalExpense = 0.0;
 
     ofstream reportFile("reports/" + username + "_report.txt");
-    reportFile << "Финансов отчет за периода " << startDate << " до " << endDate << "\n\n";
+    reportFile << "Financial Report for the period " << startDate << " to " << endDate << "\n\n";
 
-    // Приходи
-    reportFile << "Приходи:\n";
+    // Income
+    reportFile << "Income:\n";
     for (const auto& income : incomeManager.getIncomes()) {
         if (income.date >= startDate && income.date <= endDate) {
-            reportFile << "Дата: " << income.date << ", Категория: " << income.category << ", Сума: " << income.amount << " лв.\n";
+            reportFile << "Date: " << income.date << ", Category: " << income.category << ", Amount: " << income.amount << " BGN\n";
             totalIncome += income.amount;
         }
     }
-    reportFile << "Общо приходи: " << totalIncome << " лв.\n\n";
+    reportFile << "Total Income: " << totalIncome << " BGN\n\n";
 
-    // Разходи
-    reportFile << "Разходи:\n";
+    // Expenses
+    reportFile << "Expenses:\n";
     for (const auto& expense : expenseManager.getExpenses()) {
         if (expense.date >= startDate && expense.date <= endDate) {
-            reportFile << "Дата: " << expense.date << ", Категория: " << expense.category << ", Сума: " << expense.amount << " лв.\n";
+            reportFile << "Date: " << expense.date << ", Category: " << expense.category << ", Amount: " << expense.amount << " BGN\n";
             totalExpense += expense.amount;
         }
     }
-    reportFile << "Общо разходи: " << totalExpense << " лв.\n\n";
+    reportFile << "Total Expenses: " << totalExpense << " BGN\n\n";
 
-    // Баланс
-    reportFile << "Нетен баланс: " << (totalIncome - totalExpense) << " лв.\n";
+    // Balance
+    reportFile << "Net Balance: " << (totalIncome - totalExpense) << " BGN\n";
 
     reportFile.close();
 
-    cout << "Отчетът е генериран успешно и е записан в папката 'reports'.\n";
+    cout << "The report has been successfully generated and saved in the 'reports' folder.\n";
 }
 
-// Генериране на диаграма на разходите
+// Generate expense chart
 void ReportGenerator::generateExpenseChart(const ExpenseManager& expenseManager, const string& username) {
-    // Обобщаване на разходите по категории
+    // Summarize expenses by category
     map<string, double> categoryTotals;
     for (const auto& expense : expenseManager.getExpenses()) {
         categoryTotals[expense.category] += expense.amount;
     }
 
-    // Записване на данните във файл
+    // Save data to file
     ofstream dataFile("reports/" + username + "_expense_data.dat");
     for (const auto& pair : categoryTotals) {
         dataFile << pair.first << " " << pair.second << endl;
     }
     dataFile.close();
 
-    // Генериране на GNUplot скрипт
+    // Generate GNUplot script
     ofstream gnuplotScript("reports/" + username + "_expense_chart.plt");
     gnuplotScript << "set terminal png size 800,600\n";
     gnuplotScript << "set output 'reports/" << username << "_expense_chart.png'\n";
-    gnuplotScript << "set title 'Разходи по категории'\n";
-    gnuplotScript << "set xlabel 'Категории'\n";
-    gnuplotScript << "set ylabel 'Сума (лв.)'\n";
+    gnuplotScript << "set title 'Expenses by Category'\n";
+    gnuplotScript << "set xlabel 'Categories'\n";
+    gnuplotScript << "set ylabel 'Amount (BGN)'\n";
     gnuplotScript << "set style data histograms\n";
     gnuplotScript << "set style fill solid\n";
     gnuplotScript << "set boxwidth 0.5\n";
-    gnuplotScript << "plot 'reports/" << username << "_expense_data.dat' using 2:xtic(1) title 'Разходи'\n";
+    gnuplotScript << "plot 'reports/" << username << "_expense_data.dat' using 2:xtic(1) title 'Expenses'\n";
     gnuplotScript.close();
 
-    // Изпълнение на GNUplot скрипта
+    // Execute the GNUplot script
     system(("gnuplot reports/" + username + "_expense_chart.plt").c_str());
 
-    cout << "Диаграмата на разходите е генерирана успешно и е записана в папката 'reports'.\n";
+    cout << "The expense chart has been successfully generated and saved in the 'reports' folder.\n";
 }
