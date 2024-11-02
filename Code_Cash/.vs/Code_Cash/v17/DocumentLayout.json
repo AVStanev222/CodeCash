@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|solutionrelative:User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Report.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|solutionrelative:Report.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Income.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|solutionrelative:Income.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Expense.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|solutionrelative:Expense.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Budget.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|solutionrelative:Budget.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|solutionrelative:User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Report.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -23,37 +47,21 @@
       "RelativeMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|solutionrelative:Budget.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\sha.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\opensslv.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\opensslconf.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|solutionrelative:User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\include\\sha.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\sha.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Budget.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|solutionrelative:Budget.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|solutionrelative:User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\sha.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\include\\e_os2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\e_os2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\include\\opensslconf.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -70,14 +78,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\macros.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Report.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|solutionrelative:Report.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Income.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{73D7CC7F-5EA1-44B1-A89B-2D77D0C0B267}|Code_Cash.vcxproj|solutionrelative:Income.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\include\\opensslv.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\opensslv.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -89,7 +89,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
@@ -105,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "User.h",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\User.h",
               "RelativeDocumentMoniker": "User.h",
@@ -113,25 +113,24 @@
               "RelativeToolTip": "User.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-01T14:08:21.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T14:08:21.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "Budget.cpp",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Budget.cpp",
               "RelativeDocumentMoniker": "Budget.cpp",
               "ToolTip": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Budget.cpp",
               "RelativeToolTip": "Budget.cpp",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-01T14:11:15.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Expense.cpp",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Expense.cpp",
               "RelativeDocumentMoniker": "Expense.cpp",
@@ -144,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Report.h",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Report.h",
               "RelativeDocumentMoniker": "Report.h",
@@ -152,12 +151,11 @@
               "RelativeToolTip": "Report.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-01T14:09:22.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T14:09:22.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Income.h",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Income.h",
               "RelativeDocumentMoniker": "Income.h",
@@ -165,12 +163,11 @@
               "RelativeToolTip": "Income.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-01T14:08:49.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T14:08:49.703Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Expense.h",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Expense.h",
               "RelativeDocumentMoniker": "Expense.h",
@@ -178,12 +175,63 @@
               "RelativeToolTip": "Expense.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-01T14:09:00.834Z",
+              "WhenOpened": "2024-11-01T14:09:00.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Income.cpp",
+              "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Income.cpp",
+              "RelativeDocumentMoniker": "Income.cpp",
+              "ToolTip": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Income.cpp",
+              "RelativeToolTip": "Income.cpp",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T14:10:47.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T14:11:41.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Report.cpp",
+              "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Report.cpp",
+              "RelativeDocumentMoniker": "Report.cpp",
+              "ToolTip": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Report.cpp",
+              "RelativeToolTip": "Report.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T14:11:27.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cpp",
+              "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\User.cpp",
+              "RelativeDocumentMoniker": "User.cpp",
+              "ToolTip": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\User.cpp",
+              "RelativeToolTip": "User.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T14:10:23.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Budget.h",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Budget.h",
               "RelativeDocumentMoniker": "Budget.h",
@@ -191,23 +239,23 @@
               "RelativeToolTip": "Budget.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-01T14:09:12.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T14:09:12.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "opensslv.h",
-              "DocumentMoniker": "C:\\Users\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\opensslv.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\opensslv.h",
-              "ToolTip": "C:\\Users\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\opensslv.h",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\opensslv.h",
+              "DocumentIndex": 14,
+              "Title": "sha.h",
+              "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\include\\sha.h",
+              "RelativeDocumentMoniker": "include\\sha.h",
+              "ToolTip": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\include\\sha.h",
+              "RelativeToolTip": "include\\sha.h",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-01T21:12:40.719Z"
+              "WhenOpened": "2024-11-01T21:29:49.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "opensslconf.h",
               "DocumentMoniker": "C:\\Users\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\opensslconf.h",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\opensslconf.h",
@@ -218,45 +266,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cpp",
-              "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\User.cpp",
-              "RelativeDocumentMoniker": "User.cpp",
-              "ToolTip": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\User.cpp",
-              "RelativeToolTip": "User.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-01T14:10:23.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "sha.h",
-              "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\include\\sha.h",
-              "RelativeDocumentMoniker": "include\\sha.h",
-              "ToolTip": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\include\\sha.h",
-              "RelativeToolTip": "include\\sha.h",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "opensslv.h",
+              "DocumentMoniker": "C:\\Users\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\opensslv.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\opensslv.h",
+              "ToolTip": "C:\\Users\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\opensslv.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\opensslv.h",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-01T21:29:49.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T21:12:40.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Report.cpp",
-              "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Report.cpp",
-              "RelativeDocumentMoniker": "Report.cpp",
-              "ToolTip": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Report.cpp",
-              "RelativeToolTip": "Report.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-01T14:11:27.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "macros.h",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\include\\macros.h",
               "RelativeDocumentMoniker": "include\\macros.h",
@@ -268,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "macros.h",
               "DocumentMoniker": "C:\\Users\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\macros.h",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\macros.h",
@@ -279,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "e_os2.h",
               "DocumentMoniker": "C:\\Users\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\e_os2.h",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Famouscave\\source\\repos\\Code_Cash\\Code_Cash\\openssl\\e_os2.h",
@@ -290,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "opensslconf.h",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\include\\opensslconf.h",
               "RelativeDocumentMoniker": "include\\opensslconf.h",
@@ -302,19 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-01T14:11:41.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "e_os2.h",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\include\\e_os2.h",
               "RelativeDocumentMoniker": "include\\e_os2.h",
@@ -335,18 +344,6 @@
               "ViewState": "AgIAAFYAAAAAAAAAAAAuwGkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-01T21:31:45.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Income.cpp",
-              "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Income.cpp",
-              "RelativeDocumentMoniker": "Income.cpp",
-              "ToolTip": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CodeCash\\CodeCash\\Code_Cash\\Income.cpp",
-              "RelativeToolTip": "Income.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-01T14:10:47.279Z"
             }
           ]
         }
